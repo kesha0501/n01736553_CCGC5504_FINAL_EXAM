@@ -1,0 +1,8 @@
+replicaCount: 1
+image:
+  repository: kesha0501/n01736553-nginx
+  tag: latest
+  pullPolicy: IfNotPresent
+service:
+  type: ClusterIP
+  port: 80
